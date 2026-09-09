@@ -1,9 +1,14 @@
 package ProjetoPOO;
 
-public abstract class Personagem {
+import ProjetoPOO.Interfaces.Atacar;
+
+public abstract class Personagem implements Atacar {
 
     private String nome;
     private int idade;
+
+    public Personagem(String nome, int idade) {
+    }
 
     public void Pesonagem(String nome, int idade){
 
@@ -26,5 +31,11 @@ public abstract class Personagem {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    // ==================================
+
+    public void Atacar() {
+
     }
 }

@@ -7,6 +7,10 @@ import ProjetoPOO.Interfaces.ExpansaoDominio;
 public class Megumi extends Feiticeiro implements Energia, ExpansaoDominio {
 
 
+    public Megumi(String nome, int idade) {
+        super(nome, idade);
+    }
+
     @Override
     public void energiaAmaldicoada() {
         System.out.println("Megumi usou  Técnica das Dez Sombras!");

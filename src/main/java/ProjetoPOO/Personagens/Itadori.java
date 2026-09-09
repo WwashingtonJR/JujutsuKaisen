@@ -7,6 +7,10 @@ import ProjetoPOO.Interfaces.ExpansaoDominio;
 public class Itadori extends Feiticeiro implements Energia, ExpansaoDominio {
 
 
+    public Itadori(String nome, int idade) {
+        super(nome, idade);
+    }
+
     @Override
     public void energiaAmaldicoada() {
         System.out.println("Yuji Itadori usou Punho Divergente!");
