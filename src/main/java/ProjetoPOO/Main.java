@@ -12,10 +12,9 @@ public class Main {
         Personagem yuji = new Itadori("Itadori", 19);
         Personagem sukuna = new Sukuna("Sukuna", 19);
 
-        gojo.Atacar();
+        gojo.atacar();
         yuji.atacar();
         sukuna.atacar();
-
 
 
     }
