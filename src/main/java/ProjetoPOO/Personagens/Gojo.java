@@ -6,6 +6,6 @@ import ProjetoPOO.Feiticeiro;
 public class Gojo extends Feiticeiro implements Energia {
     @Override
     public void energiaAmaldicoada() {
-
+        System.out.println("Gojo usou Mukagen!");
     }
 }
