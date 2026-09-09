@@ -1,12 +1,9 @@
 package ProjetoPOO;
 
-public class Feiticeiro implements Energia {
+public class Feiticeiro {
 
     private String nome;
 
 
-    @Override
-    public void energiaAmaldicoada() {
 
-    }
 }
