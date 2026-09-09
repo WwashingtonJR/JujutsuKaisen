@@ -3,8 +3,9 @@ package ProjetoPOO.Personagens;
 import ProjetoPOO.Interfaces.Energia;
 import ProjetoPOO.Feiticeiro;
 import ProjetoPOO.Interfaces.ExpansaoDominio;
+import ProjetoPOO.Maldicao;
 
-public class Sukuna extends Feiticeiro implements Energia, ExpansaoDominio {
+public class Sukuna extends Maldicao implements Energia, ExpansaoDominio {
 
 
     public Sukuna(String nome, int idade) {
