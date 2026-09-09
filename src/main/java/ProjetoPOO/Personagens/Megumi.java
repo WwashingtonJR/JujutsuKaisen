@@ -1,13 +1,19 @@
 package ProjetoPOO.Personagens;
 
-import ProjetoPOO.Energia;
+import ProjetoPOO.Interfaces.Energia;
 import ProjetoPOO.Feiticeiro;
+import ProjetoPOO.Interfaces.ExpansaoDominio;
 
-public class Megumi extends Feiticeiro implements Energia {
+public class Megumi extends Feiticeiro implements Energia, ExpansaoDominio {
 
 
     @Override
     public void energiaAmaldicoada() {
         System.out.println("Megumi usou  Técnica das Dez Sombras!");
+    }
+
+    @Override
+    public void dominio() {
+        System.out.println("Expansão de domínio Jardim das Sombras Justapostas!");
     }
 }

@@ -1,6 +1,6 @@
 package ProjetoPOO;
 
-public class Feiticeiro {
+public abstract class Feiticeiro {
 
     private String nome;
 
