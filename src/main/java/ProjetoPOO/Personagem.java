@@ -8,14 +8,9 @@ public abstract class Personagem implements Atacar {
     private int idade;
 
     public Personagem(String nome, int idade) {
-    }
-
-    public void Pesonagem(String nome, int idade){
-
         this.setNome(nome);
         this.setIdade(idade);
     }
-
 
     public String getNome() {
         return nome;
@@ -31,11 +26,5 @@ public abstract class Personagem implements Atacar {
 
     public void setIdade(int idade) {
         this.idade = idade;
-    }
-
-    // ==================================
-
-    public void Atacar() {
-
     }
 }
