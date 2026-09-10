@@ -3,13 +3,14 @@ package ProjetoPOO.Personagens;
 import ProjetoPOO.Interfaces.Energia;
 import ProjetoPOO.Feiticeiro;
 import ProjetoPOO.Interfaces.ExpansaoDominio;
-import ProjetoPOO.Maldicao;
+import ProjetoPOO.Tecnicas.Tecnica;
 
-public class Sukuna extends Maldicao implements Energia, ExpansaoDominio {
+public class Sukuna extends Feiticeiro implements Energia, ExpansaoDominio {
 
 
     public Sukuna(String nome, int idade) {
         super(nome, idade);
+        setTecnica(new Tecnica("Muzishi",40));
     }
 
     @Override
